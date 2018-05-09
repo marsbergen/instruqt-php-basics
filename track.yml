@@ -1,0 +1,29 @@
+type: track
+version: 0.0.2
+slug: my-php-track
+icon: https://cdn.iconscout.com/public/images/icon/free/png-512/php-logo-brand-development-tools-39c938ff2f5cfffd-512x512.png
+title: PHP Introduction
+teaser: Quickly learn the basics of PHP
+description: |-
+  With this PHP introduction you'll learn about PHP basics.
+tags: [PHP]
+challenges:
+- slug: hello-world
+  credits: 10
+  title: Hello World
+  teaser: Echo a simple Hello World when you run your first script.
+  notes:
+  - type: text
+    title: Start echo'ing Hello World
+    contents: Edit the file index.php and echo Hello World
+  assignment: |-
+    Edit the index.php file and make sure you'll echo the text Hello World
+  difficulty: basic
+  unlocks: []
+  tabs:
+  - type: terminal
+    title: Shell
+    hostname: shell
+developers:
+- pvanmarsbergen@xebia.com
+published: false

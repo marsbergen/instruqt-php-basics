@@ -1,0 +1,13 @@
+template: containers
+configuration:
+  Cloud:
+    Profile: ""
+    Provider: ""
+  Containers:
+  - Environment: {}
+    Image: php:latest
+    Name: shell
+    Ports: []
+    Resources:
+      Memory: 128
+    Shell: /bin/bash
