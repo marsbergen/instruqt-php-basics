@@ -10,9 +10,6 @@
 # for more information.
 #
 
-apt-get update
-apt-get install -y vim
-
 touch index.php
 
 exit 0

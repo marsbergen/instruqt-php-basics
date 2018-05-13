@@ -8,14 +8,14 @@
 #
 # Remember that the exit code is important. See the documentation
 # for more information.
-#
+
 set-workdir $DIRECTORY
 
-result=$(php index.php)
+result=$(echo $(php index.php) | awk '{print tolower($0)}')
 
-if [[ !${result,,} = "hello world" ]]; then
-	fail-message "Your challenge failed because the text you echo (${result}) doesn't look like Hello World";
+if [ "$result" != "hello world" ]; then
+	fail-message "Your challenge failed because the text you echo ($(php index.php)) doesn't match (Hello World)";
 	exit 1;
 fi
 
-echo 0;
+exit 0;

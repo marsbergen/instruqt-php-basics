@@ -15,7 +15,7 @@ challenges:
   notes:
   - type: text
     title: Start echo'ing Hello World
-    contents: Edit the file index.php and echo Hello World
+    contents: We already created index.php for you. Edit this file and echo the text `Hello World`
   assignment: |-
     Edit the index.php file and make sure you'll echo the text Hello World
   difficulty: basic
