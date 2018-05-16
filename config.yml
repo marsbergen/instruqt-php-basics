@@ -5,9 +5,10 @@ configuration:
     Provider: ""
   Containers:
   - Environment: {}
-    Image: marsbergen/instruqt-php-track:latest
+    Image: gcr.io/instruqt/php-ide:latest
     Name: shell
-    Ports: []
+    Ports:
+      - 6800
     Resources:
       Memory: 128
     Shell: /bin/bash

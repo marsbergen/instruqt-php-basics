@@ -2,7 +2,7 @@ type: track
 version: 0.0.2
 slug: my-php-track
 icon: https://cdn.iconscout.com/public/images/icon/free/png-512/php-logo-brand-development-tools-39c938ff2f5cfffd-512x512.png
-title: PHP Introduction
+title: Learn PHP
 teaser: Quickly learn the basics of PHP
 description: |-
   With this PHP introduction you'll learn about PHP basics.
@@ -12,6 +12,7 @@ challenges:
   credits: 10
   title: Hello World
   teaser: Echo a simple Hello World when you run your first script.
+  timelimit: 3600
   notes:
   - type: text
     title: Start echo'ing Hello World
@@ -21,9 +22,15 @@ challenges:
   difficulty: basic
   unlocks: []
   tabs:
-  - type: terminal
-    title: Shell
+  - type: service
+    title: Project
     hostname: shell
+    path: /brackets
+    port: 6800
+  - type: terminal
+    title: Terminal
+    hostname: shell
+
 developers:
 - pvanmarsbergen@xebia.com
 published: false
